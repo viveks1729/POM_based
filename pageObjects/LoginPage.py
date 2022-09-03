@@ -5,6 +5,7 @@ class LoginPage():
     loginButton_Name = "login"
     #logout_LinkText = "Logout"
 
+    #initialising driver upon creation of LoginPage object
     def __init__(self,driver):
         self.driver= driver
 
