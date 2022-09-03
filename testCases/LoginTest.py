@@ -30,6 +30,7 @@ class LoginTest(unittest.TestCase):
         time.sleep(5)
         self.assertEqual("My Account – Automation Practice Site",self.driver.title,"Not the page we were looking for")
 
+    #skip the following method:
     @unittest.skip
     def test_skip(self):
         self.assertTrue(True)
